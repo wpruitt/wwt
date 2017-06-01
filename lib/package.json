@@ -1,0 +1,25 @@
+{
+  "name": "wide-world-travel",
+  "version": "1.0.0",
+  "description": "list a collection of travel guides",
+  "main": "gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https:/github.com/wpruitt/wwt"
+  },
+  "author": "Willie Pruitt",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "jshint": "^2.9.4",
+    "watch": "^1.0.2"
+  },
+  "dependencies": {
+    "angular": "^1.6.4"
+  }
+}
