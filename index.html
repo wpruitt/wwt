@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body ng-app="bookApp">
+	<div ng-controller="bookCtrl">
+		<h3>Travel Guide Books</h3>
+		<div ng-repeat="book in books">
+				<h4>{{book.title}}</h4>
+				<p>Price: {{book.price | currency}}</p>
+				<!-- <p>Actual Price: {{price}}</p> -->
+				<p style="text-transform: capitalize">Type: {{book.type}}</p>
+		</div>
+	</div>
+	<script type="text/javascript" src="lib/node_modules/angular/angular.min.js"></script>
+	<script src="app/app.js"></script>
+	<script src="app/controllers/bookCtrl.js"></script>
+	<script src="app/factories/bookFactory.js"></script>
+</body>
+</html>
